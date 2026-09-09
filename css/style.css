@@ -1,0 +1,111 @@
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/* Questrial */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card-p {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+    font-family: "Questrial", sans-serif;
+}
+
+.p-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.links {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.community {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.subscribe {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.input {
+    width: 250px;
+    height: 56px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
+    border: 1px color(gray);
+    text-indent: 10px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.first-card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.second-card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.third-card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fourth-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cards {
+    display: flex;
+    gap: 150px;
+}
+
+.card-title {
+    display: flex;
+    gap: 24px;
+}
