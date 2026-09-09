@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+ /* font-family: "DM Sans", sans-serif; */
+ @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+ /*  font-family: "Questrial", sans-serif; */
 * {
     margin: 0;
     padding: 0;
@@ -28,4 +32,61 @@
     line-height: 1.7;
     max-width: 500px;
     margin-bottom: 25px;
+}
+/* Sultonbek hero css */
+.hero{
+width: 1710px;
+height: 900px;
+    display: flex;
+}
+.hero-left{
+    width: 730px;
+    height: 385px;
+    margin-top: 230px;
+    margin-left: 235px;
+    gap: 16px;
+}
+.left-location{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+}
+.left-topline{
+    display: inline;
+    font-size: 30px;
+}
+.left-title{
+    font-size: 55px;
+    line-height: 145%;
+    font-weight: 400;
+    font-family: "Questrial", sans-serif;
+    color: #000;
+}
+.left-subtitle{
+    font-size: 20px;
+    line-height: 155%;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: gray;
+}
+.left-btn{
+    width: 285px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 155%;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFB21E;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.fa-arrow-right{
+    font-size: 15px;
+}
+.left-limg{
+    border-radius: 100%;
+    font-size: 30px;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    display: flex; 
 }
