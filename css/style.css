@@ -3,6 +3,10 @@
 /* Questrial */
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+ /* font-family: "DM Sans", sans-serif; */
+ @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+ /*  font-family: "Questrial", sans-serif; */
 * {
     margin: 0;
     padding: 0;
@@ -109,3 +113,209 @@
     display: flex;
     gap: 24px;
 }
+}
+.box {
+    width: 30%;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.img {
+     width: 100%;
+    height: 400px;
+    border-radius:50%;
+    display: flex;
+}
+.title {
+    font-size: 45px;
+    color: #222;
+    margin: 12px 0 20px;
+}
+
+.p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+/* Sultonbek hero css */
+.hero{
+width: 1710px;
+height: 900px;
+    display: flex;
+}
+.hero-left{
+    width: 730px;
+    height: 385px;
+    margin-top: 230px;
+    margin-left: 235px;
+    gap: 16px;
+}
+.left-location{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+}
+.left-topline{
+    display: inline;
+    font-size: 30px;
+}
+.left-title{
+    font-size: 55px;
+    line-height: 145%;
+    font-weight: 400;
+    font-family: "Questrial", sans-serif;
+    color: #000;
+}
+.left-subtitle{
+    font-size: 20px;
+    line-height: 155%;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: gray;
+}
+.left-btn{
+    width: 285px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 155%;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFB21E;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.fa-arrow-right{
+    font-size: 15px;
+}
+.left-limg{
+    border-radius: 100%;
+    font-size: 30px;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    display: flex; 
+}
+/* omadbek */
+.box{
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.box-2{
+    width: 120px;
+    height: 29px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.mini-box{
+    width: 270px;
+    height: 641px;
+    background-color: #FFF0D2;
+    border-radius: 10px;
+}
+
+.text-1{
+    width: 234px;
+    height: 123px;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.text-2{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #5a5858;
+    margin-top: 20px;
+}
+
+.text-box{
+    width: 234px;
+    height: 244px;
+    margin: auto;
+}
+
+.text-4{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    display: flex;
+}
+
+.cilic{
+    width: 192px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: #FFB21E;
+    margin: 70px auto;
+}
+
+.cilic p{
+    margin-left: 20px;
+}
+
+.mini-box-2{
+    width: 270px;
+    height: 641px;
+    background-color: #f9f7f7;
+    border-radius: 10px;
+}
+
+.cilic-1{
+    width: 192px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #1254FF;
+    background-color: #ffffff;
+    margin: 70px auto;
+}
+
+.cilic-1 p{
+    margin-left: 20px;
+    
+}
+
+.cilic-3{
+        width: 192px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #FFB21E;
+    background-color: #ffffff;
+    margin: 70px auto;
+}
+/* omadbek end page */
